@@ -1,0 +1,82 @@
+
+/*Reset starts*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+/*Reset ends*/
+
+
+
+
+
+/*Navbar styles starts*/
+.navbar{
+	position: fixed;
+	width: 100%;
+	background-color:#948477;
+	padding: 20px;
+}
+.max-width{
+
+	margin: auto;
+	padding: 0 75px;
+}
+.navbar .max-width{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.navbar .menu li {
+	list-style: none;
+	display: inline-block;
+}
+.navbar .menu li a{
+	color: #fff;
+	font-size: 20px;
+	font-weight: 500;
+	margin-left: 28px;
+}
+.max-width .header__caption a{
+font-family: 'Merriweather', serif;
+font-size: 40px;
+font-weight: 700;
+color: #fff;
+}
+/*Navbar styles ends*/
+
+/*Home styles starts*/
+.home{
+	display: flex;
+	background: url(https://vendigo.ru/wp-content/uploads/2019/03/light_03.jpg) center no-repeat;
+	background-size: cover;
+	height: 100vh;
+	color: #283043;
+	min-height: 550px;
+	font-family: 'Merriweather', serif;
+	font-size: 30px;
+}
+.home .max-width{
+margin-right: 120px;
+margin-top: 300px;
+}
+
+/*Home styles ends*/
+
+
+
+
+
+
+
