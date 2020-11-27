@@ -25,11 +25,23 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 	position: fixed;
 	width: 100%;
 	padding: 30px 0;
-	/*background-color:#d43347;*/
 	padding: 20px;
+	transition: 0,3s ease;
 }
+.navbar.sticky{
+	padding: 30px 0;
+	background-color:#d43347;
+}
+/*Menu button styles start*/
+.menu-btn{
+	color:#fff;
+	font-size: 25px;
+	cursor: pointer;
+	display: none;
+}
+/*Menu button end*/
 .max-width{
-
+	max-width: 1300px;
 	margin: auto;
 	padding: 0 75px;
 }
@@ -89,9 +101,128 @@ margin: auto 0 auto 40px;
 .text_3 span{
 	color: #d43347;
 }
-
-
+.home .home-content a{
+	display: inline-block;
+	background-color: #d43347;
+	font-size: 25px;
+	color: #fff;
+	border: 2px solid #d43347;
+	border-radius: 6px;
+	padding: 12px 25px;
+	margin-top: 20px;
+	transition: all 0.3 ease;
+}
+.home .home-content a:hover{
+	color: #fff;
+    background: none;
+}
 /*Home styles ends*/
+
+/*media queries start*/
+@media (max-width: 1104px) {
+	.home .max-width{
+        margin-left: 0px;
+	}
+}
+
+
+@media (max-width: 947px){
+	.max-width{
+		padding: 0 50px;
+	}
+    .menu-btn{
+    	display: block;
+        z-index: 999;
+    }
+    .menu-btn i.active:before{
+    	content: "\f00d";
+    	    }
+	.navbar .menu{
+		position: fixed;
+		height: 100vh;
+		width: 100%;
+		left: -100%;
+		top: 0;
+		background-color: #111;
+		text-align: center;
+		padding-top: 70px;
+		transition: 0.35s ease;
+	}
+	.navbar .menu.active{
+	left: 0;
+
+    }
+	.navbar .menu li{
+		display: block;
+	}
+	.navbar .menu li a{
+		display: inline-block;
+		margin:  20px 0;
+		font-size: 25px;
+	}
+	.home .home-content .text_2{
+	font-size: 60px;
+	
+    }
+   .home .home-content .text_3{
+	font-size: 30px;
+	margin: 5px 0;
+    }
+    }
+
+    @media (max-width: 690px) {
+    .home .home-content .text_2{
+	font-size: 50px;
+    }
+   .home .home-content .text_3{
+	font-size: 25px;
+	margin: 5px 0;
+    }
+    .home .home-content a{
+	font-size: 20px;
+	padding: 7px 23px;
+    }
+    }
+
+    @media (max-width: 500px) {
+   .home .home-content .text_2{
+	font-size: 40px;
+	
+    }
+   .home .home-content .text_3{
+	font-size: 20px;
+	margin: 5px 0;
+    }
+   .home .home-content a{
+	font-size: 16px;
+	padding: 5px 20px;
+    }
+
+
+    @media(max-width: 420px){
+    .home .home-content .text_1{
+       margin-top: 20px;
+       font-size: 16px;
+    }
+    .home .home-content .text_2{
+	font-size: 17px;
+	margin-top: 4px;
+	
+    }
+   .home .home-content .text_3{
+	font-size: 14px;
+	margin: 5px 0;
+    }
+   .home .home-content a{
+	font-size: 14px;
+	padding: 5px 20px;
+    }
+    }
+/*media queries end*/
+
+
+
+
 
 
 
