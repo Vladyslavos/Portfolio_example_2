@@ -199,7 +199,7 @@ border: 4px solid #903834;
 }
 .services .serv-content .card{
 	width: calc(33%  -20px);
-	height: 350px;
+	height: 300px;
 	background-color: #222;
 	text-align: center;
 	border-radius: 6px;
@@ -216,7 +216,10 @@ background: #fa3e3e;
 .services .serv-content .card.box{
 transition: all 0.3 all ease;
 }
-.services .serv-content .card :hover i{
+.services .serv-content .card:hover .box{
+transition: all 0.3 all ease;
+}
+.services .serv-content .card:hover i{
 	color: black;
 }
 .services .serv-content .card i{
