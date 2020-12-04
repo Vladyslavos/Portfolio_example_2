@@ -19,7 +19,6 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 
 
 
-
 /*Navbar styles starts*/
 .navbar{
 	position: fixed;
@@ -135,7 +134,8 @@ section{
 	margin-bottom: 60px;
 	padding-bottom: 20px;
 }
-.about .about-content{
+.about .about-content,
+.services .serv-content{
 	display: flex;
     flex-wrap: wrap;
 	align-items: center;
@@ -180,128 +180,63 @@ border: 4px solid #903834;
 	background: none;
 	color: #d92525;
 }
-
-
 /*About styles ends*/
+
+
+
+
 
 
 /* Service styles starts */
 .services{
-	font-family: 'Merriweather', serif;
-	height: 100vh;
-	background-color: #111;
-	color: #fff;
-}
-.services .serv-content{
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
+    color:#fff;
+    background: #111;
 }
 .services .serv-content .card{
-	width: calc(33%  -20px);
-	height: 300px;
-	background-color: #222;
-	text-align: center;
-	border-radius: 6px;
-	padding: 20px 25px;
-	cursor: pointer;
-	margin-left: 3vh;
-	margin-top: 70px;
-	transition: all 0.3 all ease;
-	
+    width: calc(33% - 20px);
+    background: #222;
+    text-align: center;
+    border-radius: 6px;
+    padding: 20px 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
 .services .serv-content .card:hover{
-background: #fa3e3e;
+    background: crimson;
 }
-.services .serv-content .card.box{
-transition: all 0.3 all ease;
+.services .serv-content .card .box{
+    transition: all 0.3s ease;
 }
 .services .serv-content .card:hover .box{
-transition: all 0.3 all ease;
-}
-.services .serv-content .card:hover i{
-	color: black;
+    transform: scale(1.05);
 }
 .services .serv-content .card i{
     font-size: 50px;
-    color:#fa3e3e; 
+    color: crimson;
+    transition: color 0.3s ease;
+}
+.services .serv-content .card:hover i{
+    color: #fff;
 }
 .services .serv-content .card .text{
-	font-size: 25px;
-	font-weight: 500;
-	margin: 10px 0 7px 0;
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
 }
-
 .services .title{
+	font-size: 50px;
+	color: #fff;
 	text-align: center;
-	font-size: 45px;
-	margin-top: 4vh;
+	padding: 20px;
 }
 .services .title-2{
+	font-size: 30px;
+	color: #fff;
 	text-align: center;
-	font-size: 25px;
-	padding-top: 15px;
-	color: #fa3e3e;
-	}
-/* Services styles starts */
+	padding: 10px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* Services styles ends */
 
 
 /*media queries start*/
@@ -374,9 +309,15 @@ transition: all 0.3 all ease;
     .about .about-content .right{
     	flex: 100%;
     }
-
+   .services{
+    	margin-top: 20vh;
     }
-
+   .services .serv-content .card{
+    	width: calc(50% - 10px);
+    	margin-bottom: 20px;
+    }
+  
+   }
     @media (max-width: 690px) {
     .home .home-content .text_2{
 	font-size: 50px;
@@ -389,12 +330,20 @@ transition: all 0.3 all ease;
 	font-size: 20px;
 	padding: 7px 23px;
     }
+    .services{
+    	margin-top: 30vh;
+    }
+    .services .serv-content .card{
+    	width: 100%;
+    	margin-bottom: 20px;
+    }
+
+
     }
 
     @media (max-width: 500px) {
    .home .home-content .text_2{
 	font-size: 40px;
-	
     }
    .home .home-content .text_3{
 	font-size: 20px;
@@ -403,6 +352,14 @@ transition: all 0.3 all ease;
    .home .home-content a{
 	font-size: 16px;
 	padding: 5px 20px;
+    }
+    .services{
+    margin-top: 60vh;
+    }
+    .services .serv-content .card{
+    margin-bottom: 10px;
+     }
+
     }
 
 
@@ -424,8 +381,62 @@ transition: all 0.3 all ease;
 	font-size: 14px;
 	padding: 5px 20px;
     }
+    .services{
+    	margin-top: 140vh;
+    }
+    .services .serv-content .card{
+    	margin-bottom: 10px;
+    }
     }
 /*media queries end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
