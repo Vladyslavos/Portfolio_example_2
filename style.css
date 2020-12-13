@@ -239,7 +239,8 @@ border: 4px solid #903834;
 /* Services styles ends */
 
 
-/* skills section styling */
+
+/* Skills styles starts */
 .skills .title{
 	text-align: center;
 	font-size: 35px;
@@ -307,6 +308,9 @@ border: 4px solid #903834;
     top: 0;
     background: crimson;
 }
+.skills .skills-content .right{
+position: sticky;
+}
 .skills-content .right .html::before{
     width: 90%;
 }
@@ -322,7 +326,73 @@ border: 4px solid #903834;
 .skills-content .right .mysql::before{
     width: 70%;
 }
+/* Skills section ends*/
 
+
+
+
+
+/* Team styles starts */
+.team{
+	color:#fff;
+    background: #111;
+    height: 80vh;
+}
+.team .title{
+	text-align: center;
+	font-size: 35px;
+	padding-bottom: 10px;
+}
+.team .carousel .card{
+    background: #222;
+    border-radius: 6px;
+    padding:25px 30px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+.team .carousel .card .box{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.team .carousel .card img{
+	height: 150px;
+	width: 150px;
+	object-fit: cover;
+	border-radius: 50%;
+	border:5px solid crimson;
+}
+.team .carousel .card .text{
+    font-size: 25px;
+    margin:10px 0 7px 0;
+}
+.team .carousel .card:hover{
+	background: crimson;
+}
+.team .carousel .card:hover img{
+	border-color: #fff;
+	transition: all 0.3s ease;
+}
+.owl-dots{
+	text-align: center;
+	margin-top: 20px;
+}
+.owl-dot{
+	height: 13px;
+	width: 13px;
+	margin: 0 5px;
+	outline: none!important;
+	border-radius: 50%;
+	border: 2px solid crimson!important;
+}
+.owl-dot.active{
+	width: 35px;
+	border-radius: 14px;
+}
+
+
+/* Team styles ends */
 
 
 
@@ -412,6 +482,7 @@ border: 4px solid #903834;
     }
   
    }
+
     @media (max-width: 690px) {
     .home .home-content .text_2{
 	font-size: 50px;
@@ -482,5 +553,57 @@ border: 4px solid #903834;
     }
     }
 /*media queries end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
