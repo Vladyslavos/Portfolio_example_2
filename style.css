@@ -1,3 +1,4 @@
+
 /*Reset starts*/
 *{padding: 0;margin: 0;border: 0;}
 *,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
@@ -15,6 +16,7 @@ ul li{list-style: none;}
 img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 /*Reset ends*/
+
 
 
 
@@ -396,6 +398,90 @@ position: sticky;
 
 
 
+
+
+
+
+
+/*Contact  styles starts*/
+.contact{
+	font-family: font-family: 'Merriweather', serif;
+	height: 100vh;
+}
+.contact .max-width .title{
+	text-align: center;
+	font-weight: bold;
+	font-size: 35px;
+	padding-bottom: 30px;
+}
+.contact .contact-content{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+}
+.contact .contact-content .column{
+	width: calc(50% - 30px);
+}
+.contact .contact-content .text{
+	font-size: 25px;
+	margin-bottom: 10px;
+	font-weight: 600;
+}
+.contact .contact-content .left p{
+	text-align: justify;
+}
+.contact .contact-content .left .icons{
+	margin: 10px 0;
+}
+.contact .contact-content .row{
+	display: flex;
+	height: 70px;
+	align-items: center;
+}
+.contact .contact-content .row .info{
+	margin-left: 30px;
+}
+.contact .contact-content .row i{
+	font-size: 25px;
+	color: crimson;
+}
+.contact .contact-content .info .head{
+	font-weight: 500;
+}
+.contact .contact-content .info .sub-title{
+	color: #333;
+}
+.column.right .field{
+	margin-bottom: 11px;
+	border-bottom: 3px solid crimson;
+	font-family:  'Merriweather', serif;
+}
+.column.right .button{
+width: 70px;
+height: 30px;
+border-radius: 5px;
+border:1px solid crimson;
+padding: 8px;
+}
+/*Contact  styles ends*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*media queries start*/
 @media (max-width: 1300px) {
 	.home .max-width{
@@ -553,57 +639,3 @@ position: sticky;
     }
     }
 /*media queries end*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
