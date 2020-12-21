@@ -1,4 +1,3 @@
-
 /*Reset starts*/
 *{padding: 0;margin: 0;border: 0;}
 *,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
@@ -16,10 +15,6 @@ ul li{list-style: none;}
 img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 /*Reset ends*/
-
-
-
-
 
 /*Navbar styles starts*/
 .navbar{
@@ -185,10 +180,6 @@ border: 4px solid #903834;
 /*About styles ends*/
 
 
-
-
-
-
 /* Service styles starts */
 .services{
     color:#fff;
@@ -239,7 +230,6 @@ border: 4px solid #903834;
 }
 
 /* Services styles ends */
-
 
 
 /* Skills styles starts */
@@ -331,9 +321,6 @@ position: sticky;
 /* Skills section ends*/
 
 
-
-
-
 /* Team styles starts */
 .team{
 	color:#fff;
@@ -397,16 +384,10 @@ position: sticky;
 /* Team styles ends */
 
 
-
-
-
-
-
-
 /*Contact  styles starts*/
 .contact{
 	font-family: font-family: 'Merriweather', serif;
-	height: 100vh;
+	height: 60vh;
 }
 .contact .max-width .title{
 	text-align: center;
@@ -458,28 +439,16 @@ position: sticky;
 	font-family:  'Merriweather', serif;
 }
 .column.right .button{
-width: 70px;
-height: 30px;
-border-radius: 5px;
-border:1px solid crimson;
-padding: 8px;
+	width: 65px;
+	height: 30px;
+	color: crimson;
+	background-color: #fff;
+	border:2px solid crimson;
+	border-radius: 6px;
+	padding: 5px;
 }
+
 /*Contact  styles ends*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*media queries start*/
@@ -566,7 +535,10 @@ padding: 8px;
     .skills .skills-content .column{
     	margin-top: 20px;
     }
-  
+    .contact .contact-content .column{
+    	width: 100%;
+    	margin-bottom: 35px;
+    }
    }
 
     @media (max-width: 690px) {
