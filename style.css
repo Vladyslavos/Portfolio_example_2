@@ -451,6 +451,31 @@ position: sticky;
 /*Contact  styles ends*/
 
 
+/* Footer section starts*/
+footer{
+    background: #111;
+    padding: 15px 23px;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+}
+footer span a{
+    color: crimson;
+    text-decoration: none;
+}
+footer span a:hover{
+    text-decoration: underline;
+}
+/* Footer section ends*/
+
+
+
+
+
+
+
+
+
 /*media queries start*/
 @media (max-width: 1300px) {
 	.home .max-width{
