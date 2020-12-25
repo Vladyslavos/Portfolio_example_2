@@ -15,6 +15,35 @@ ul li{list-style: none;}
 img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 /*Reset ends*/
+html{
+scroll-behavior: smooth;
+}
+/*Scroll button styles starts*/
+.scroll-up-btn{
+	position: fixed;
+	height: 45px;
+	width: 42px;
+	background-color: crimson;
+	right: 30px;
+	bottom: 30px;
+	text-align: center;
+	line-height: 45px;
+	color: #fff;
+	z-index: 9999;
+	font-size: 30px;
+	border-radius: 6px;
+	cursor: pointer;
+	opacity: 0;
+	pointer-events: none;
+	transition: all 0.3 ease;
+}
+.scroll-up-btn.show{
+	bottom: 30px;
+    opacity: 1;
+	pointer-events: auto;
+}
+/*Scroll button styles ends*/
+
 
 /*Navbar styles starts*/
 .navbar{
