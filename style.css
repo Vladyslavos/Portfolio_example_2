@@ -416,7 +416,7 @@ position: sticky;
 /*Contact  styles starts*/
 .contact{
 	font-family: font-family: 'Merriweather', serif;
-	height: 60vh;
+	
 }
 .contact .max-width .title{
 	text-align: center;
@@ -665,3 +665,4 @@ footer span a:hover{
     }
     }
 /*media queries end*/
+
