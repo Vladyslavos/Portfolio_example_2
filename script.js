@@ -28,7 +28,6 @@ $(document).ready(function(){
     });
     
     
-    
     // toggle menu/navbar script
     $('.menu-btn').click(function(){
         $('.navbar .menu').toggleClass("active");
@@ -36,7 +35,6 @@ $(document).ready(function(){
     });
 
    
-
     // owl carousel script
     $('.carousel').owlCarousel({
         margin: 20,
