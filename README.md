@@ -4,6 +4,12 @@ Portfolion example #2
 
 ![example](https://user-images.githubusercontent.com/67589338/101992377-62daf600-3cbb-11eb-8bce-328fb445beb4.png)
 
+<b>Technologies that I used:</b>
+<ul>
+  <li>HTML 5</li>
+  <li>CSS 3</li>
+  <li>JavaScript</li>
+  <li>JQuery</li>
+</ul>
 
 
-I used such technologies as HTML5, CSS3, JavaScript and JQuery.
