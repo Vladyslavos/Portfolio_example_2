@@ -2,7 +2,7 @@
 <p><b>Description: </b>On this project I made adaptive "Portfolio" landing page.</p> 
 <a href="https://vladyslavos.github.io/Portfolio_example_-2/">LIVE</a>
 
-![example](https://user-images.githubusercontent.com/67589338/101992377-62daf600-3cbb-11eb-8bce-328fb445beb4.png)
+![ezgif com-gif-maker (8)](https://user-images.githubusercontent.com/67589338/123796090-69def400-d8ed-11eb-950e-140c2e22865c.gif)
 
 <b>Technologies that I used:</b>
 <ul>
