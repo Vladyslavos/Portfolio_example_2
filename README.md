@@ -1,4 +1,4 @@
-Portfolion example #2
+<h1 align = "center">Portfolio example #2</h1>
 <p><b>Description: </b>On this project I made adaptive "Portfolio" landing page.</p> 
 <a href="https://vladyslavos.github.io/Portfolio_example_-2/">LIVE</a>
 
